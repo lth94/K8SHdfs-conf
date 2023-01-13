@@ -1,0 +1,12 @@
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk
+export HADOOP_HOME=/home/hadoop
+export HADOOP_CONF_DIR=${HADOOP_HOME}/etc/hadoop
+export HADOOP_MAPRED_HOME=${HADOOP_HOME}
+export HADOOP_COMMON_HOME=${HADOOP_HOME}
+export HADOOP_LOG_DIR=${HADOOP_HOME}/logs
+export HADOOP_PID_DIR=${HADOOP_HOME}/pids
+export HDFS_NAMENODE_USER="hadoop"
+export HDFS_DATANODE_USER="hadoop"
+export HDFS_SECONDARYNAMENODE_USER="hadoop"
+export YARN_RESOURCEMANAGER_USER="hadoop"
+export YARN_NODEMANAGER_USER="hadoop"
